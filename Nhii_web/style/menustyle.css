@@ -1,0 +1,247 @@
+﻿/*MENU_BODY_AREA*/
+
+.menubody {
+    height: 1100px;
+    width: 1024px;
+    display: inline-block;
+}
+
+.menubodyborder {
+    height: auto;
+    width: 100%;
+    padding-top:80px;
+}
+.navmenu {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+    .navmenu a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        display: inline-block;
+        height: 40px;
+        margin-top: 20px;
+       
+    }
+
+
+    .milkteamenu{
+        width:100%;
+        height:1100px;
+    }
+.cocktailmenu {
+    width: 100%;
+    height: 1100px;
+}
+.cakemenu {
+    width: 100%;
+    height: 1100px;
+}
+.teamenu {
+    width: 100%;
+    height: 1100px;
+}
+
+
+
+.containermn,
+.container1mn,
+.container2mn,
+.container3mn,
+.container4mn,
+.container5mn,
+.container6mn,
+.container7mn,
+.container8mn {
+    position: relative;
+    float: left;
+    width: 26%;
+    margin-bottom: 100px;
+}
+
+.containermn,
+.container3mn,
+.container6mn {
+    margin-left: 15%;
+}
+
+.containermn,
+.container1mn,
+.container2mn {
+    margin-top: 10%;
+}
+
+.imagemn {
+    display: block;
+    width: 206px;
+    height: 206px;
+}
+
+.overlaymn,
+.overlay1mn,
+.overlay2mn,
+.overlay3mn,
+.overlay4mn,
+.overlay5mn,
+.overlay6mn,
+.overlay7mn,
+.overlay8mn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 206px;
+    width: 206px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.containermn:hover .overlaymn {
+    opacity: 0.6;
+}
+
+.textboxmn,
+.textbox1mn,
+.textbox2mn,
+.textbox3mn,
+.textbox4mn,
+.textbox5mn,
+.textbox6mn,
+.textbox7mn,
+.textbox8mn {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container1mn:hover .overlay1mn {
+    opacity: 0.6;
+}
+
+.container2mn:hover .overlay2mn {
+    opacity: 0.6;
+}
+
+.container3mn:hover .overlay3mn {
+    opacity: 0.6;
+}
+
+.container4mn:hover .overlay4mn {
+    opacity: 0.6;
+}
+
+.container5mn:hover .overlay5mn {
+    opacity: 0.6;
+}
+
+.container6mn:hover .overlay6mn {
+    opacity: 0.6;
+}
+
+.container7mn:hover .overlay7mn {
+    opacity: 0.6;
+}
+
+.container8mn:hover .overlay8mn {
+    opacity: 0.6;
+}
+
+.contentmn,
+.content1mn,
+.content2mn,
+.content3mn,
+.content4mn,
+.content5mn,
+.content6mn,
+.content7mn,
+.content8mn,
+.content9mn {
+    background-color: black;
+    opacity: 1;
+    position: relative;
+    width: 1024px;
+    height: 400px;
+    display: none;
+    float:left;
+    top:-64.5%;
+}
+
+#contentmn,
+#content1mn,
+#content2mn,
+#content3mn,
+#content4mn,
+#content5mn,
+#content6mn,
+#content7mn,
+#content8mn,
+#content9mn {
+    float: left;
+    color: black;
+    font-size: 25px;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+}
+
+#pcontentmn,
+#pcontent1mn,
+#pcontent2mn,
+#pcontent3mn,
+#pcontent4mn,
+#pcontent5mn,
+#pcontent6mn,
+#pcontent7mn,
+#pcontent8mn {
+    width: 502px;
+    height: 300px;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+transition:ease 0.5s;
+}
+
+#imgmn,
+#img1mn,
+#img2mn,
+#img3mn,
+#img4mn,
+#img5mn,
+#img6mn,
+#img7mn,
+#img8mn {
+    width: 50%;
+    height: 400px;
+    float: left;
+    opacity: 10;
+}
+
+.imgspmn,
+.imgsp1mn,
+.imgsp2mn,
+.imgsp3mn,
+.imgsp4mn,
+.imgsp5mn,
+.imgsp6mn,
+.imgsp7mn,
+.imgsp8mn {
+    width: 302px;
+    height: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
