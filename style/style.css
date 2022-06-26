@@ -1,0 +1,407 @@
+﻿body {
+    background: url('img/background.jpg;') repeat-x;
+    background-size: cover;
+    height: auto;
+    margin:0;
+}
+
+header {
+    height: 100px;
+    float: left;
+    width: 100%;
+}
+
+footer {
+    height: auto;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+
+/*lOGO AND LOGIN , CART AREA*/
+.logo {
+    max-height: 50px;
+    width: 70%;
+    float: left;
+}
+
+    .logo img, #logo {
+        height: 120px;
+        display: block;
+        width:160px;
+    }
+
+
+.iconcart {
+    float: left;
+    width: 30%;
+    height: 100px;
+   text-align:right;
+   font-size:30px;
+   padding-top:30px;
+}
+.bar-menu{
+    width:75%;
+    height:600px;
+    position:relative;
+    text-align:left;
+    margin-left:25%;
+    background-color:black;
+    opacity:1;
+    color:white;
+    border-radius:1%;
+    z-index:1;
+   
+}
+
+/*content-menu-bar*/
+.header-menu-bar{
+    float:left;
+    width:100%;
+    height:100px;
+}
+.infor-acc {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+.img-menu-bar{
+    float:left;
+    width:50%;
+    height:100%;
+    text-align:center;
+}
+.img-menu-bar img{
+    height:80px;
+    width:80px;
+    display:inline-block;
+    border-radius:50%;
+    padding-top:10px;
+}
+.text-menu-bar{
+    float:left;
+    width:50%;
+    height:100%;
+
+}
+    .text-menu-bar{
+        font-size:16px;
+    }
+.bt-left {
+    float: left;
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    padding-right:5%;
+}
+    .bt-left a {
+        text-decoration: none;
+        font-size: 18px;
+        border: 1px solid white;
+        padding: 5px 10px 5px 10px;
+        display: block;
+        margin-top: 35px;
+        margin-left: 10px;
+        color: white;
+        border-radius: 5%;
+    }
+
+    .bt-right {
+        float: left;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+    }
+        .bt-right a {
+            text-decoration: none;
+            font-size: 18px;
+            border: 1px solid white;
+            padding: 5px 10px 5px 10px;
+            display: block;
+            margin-top: 35px;
+            color: white;
+            border-radius: 5%;
+            margin-right: 10px;
+        }
+
+        .cart-menu{
+            float:left;
+            width:100%;
+            height:50px;
+        }
+        .cart-menu a{
+            text-decoration:none;
+            font-size:20px;
+            color:white;
+            padding-left:10px;
+        }
+        .content-menu{
+            float:left;
+            width:100%;
+            height:50px;
+        }
+        .content-menu a{
+            text-decoration:none;
+            font-size:20px;
+            color:white;
+            padding-left:10px;
+        }
+.loginbox {
+    background-color: white;
+    position: relative;
+    float: right;
+    width: 68%;
+    height: auto;
+    border-radius: 5%;
+    opacity:1;
+}
+    .loginbox a{
+        font-size:16px;
+        border: none;
+        padding:0;
+        margin-top:10px;
+        text-align:left;
+        color:black;
+        
+    }
+    a:hover {
+        font-weight:bold;
+       
+    }
+    .content-menu-bar{
+        float:left;
+        width:100%;
+        height:300px;
+    }
+    /*NAV AREA*/
+    .navbody {
+        height: auto;
+        width: auto;
+        display: inline-block;
+        text-align: center;
+        padding: 20px;
+    }
+nav {
+    height: auto;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+    nav a {
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+        padding:29px;
+        
+    }
+
+.navlink {
+    padding-left: 50px;
+    max-width: 100%;
+}
+    /*FOOTER AREA */
+    footer{
+        text-align:center;
+    }
+.footerbody {
+    height: auto;
+    width: 1024px;
+    display: inline-block;
+    text-align: center;
+}
+footer .non {
+    float: left;
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+}
+
+footer .footerlink {
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+footer .map {
+    float: left;
+    width: 25%;
+    display: inline-block;
+}
+
+    footer div a {
+        text-decoration: none;
+        color: black;
+        margin-top: 10px;
+        display: inline-block;
+        margin-left: 40px;
+    }
+
+hr {
+    border: 1px solid black;
+}
+
+/*LOGIN*/
+
+.bodyform 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.bodyform {
+    background: #c1bdba;
+    font-family: 'Titillium Web', sans-serif;
+    margin:0;
+    width: 100%;
+    height: 1000px;
+    text-align:center;
+    
+}
+
+.Form #login {
+    position: relative;
+    left: 0px;
+}
+
+.Form a {
+    text-decoration: none;
+    color: black;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    font-size: 15px;
+}
+
+.Form h1 {
+    font-size: 35px;
+
+}
+#signup label{
+    float:left;
+}
+
+
+.Form {
+    background-color: white;
+    padding: 40px;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    position: relative;
+    border: 1px solid black;
+    display:inline-block;
+}
+
+    .Form .tab-group {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 40px 0;
+        position: relative;
+        left: -20px;
+        display: block;
+        width: 560px;
+    }
+
+        .Form .tab-group:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .Form .tab-group li a {
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            background-color: grey;
+            color: white;
+            font-size: 20px;
+            float: left;
+            width: 40%;
+            text-align: center;
+            cursor: pointer;
+            -webkit-transition: .5s ease;
+            transition: .5s ease;
+        }
+
+            .Form .tab-group li a:hover {
+                background-color: grey;
+                color: white;
+            }
+
+
+    .Form h1 {
+        text-align: center;
+        color: black;
+        font-weight: 300;
+        margin: 0 0 40px;
+    }
+
+    .Form input,
+    textarea {
+        font-size: 22px;
+        display: block;
+        width: 95%;
+        height: 100%;
+        padding: 5px 10px;
+        background: none;
+        background-image: none;
+        border: 1px solid #a0b3b0;
+        color: black;
+        border-radius: 0;
+        -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+        transition: border-color .25s ease, box-shadow .25s ease;
+    }
+
+        .Form input:focus,
+        textarea:focus {
+            outline: 0;
+            border-color: #1ab188;
+        }
+
+    .Form textarea {
+        border: 2px solid #a0b3b0;
+        resize: vertical;
+    }
+
+    .Form .field-wrap {
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .Form .button {
+        border: 0;
+        outline: none;
+        border-radius: 0;
+        padding: 15px 0;
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        background-color: grey;
+        color: white;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        -webkit-appearance: none;
+    }
+
+        .Form .button:hover,
+        .button:focus {
+            color: black;
+        }
+
+    .Form .button-block {
+        display: block;
+        width: 100%;
+    }
+
+    .Form .forgot {
+        margin-top: -20px;
+        text-align: right;
+    }
+    #msg1{
+        font-size:20px;
+    }
